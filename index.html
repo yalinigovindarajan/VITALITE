@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ✅ Basic Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Vitalite – Coming Soon</title>
+
+  <!-- ✅ SEO Meta -->
+  <meta name="description" content="Vitalite is building innovative solutions in construction and infrastructure. Stay tuned for our launch!" />
+  <meta name="keywords" content="Vitalite, Construction, RMC, Boom Pumps, Transit Mixers, Concrete Pumps, Infrastructure, Coming Soon" />
+  <meta name="author" content="Yalini Govindharajan" />
+
+  <!-- ✅ Open Graph / Social Meta -->
+  <meta property="og:title" content="Vitalite – Coming Soon" />
+  <meta property="og:description" content="We're building something amazing for you. Stay tuned!" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=2070&auto=format&fit=crop" />
+  <meta property="og:url" content="https://yalinigovindharajan.github.io/vitalite" />
+  <meta property="og:type" content="website" />
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vitalite – Coming Soon" />
+  <meta name="twitter:description" content="Innovating construction. Coming soon!" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=2070&auto=format&fit=crop" />
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2452/2452801.png" type="image/png" />
+
+  <!-- ✅ Styles -->
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+    }
+
+    .background {
+      background-image: url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=2070&auto=format&fit=crop");
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      position: relative;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ffc107;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 1rem;
+      color: #f0ad4e;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: #bbb;
+      font-size: 0.85rem;
+    }
+
+    a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>🚧 Coming Soon</h1>
+      <p>
+        Construction machines like transit mixers, boom pumps, and concrete pumps are running on the road.
+        There are RMC plants, buildings being built, and roads under construction.
+      </p>
+      <p class="tagline">We're building something amazing for you. Stay tuned!</p>
+    </div>
+    <footer>
+      © <span id="year"></span> Vitalite. All rights reserved. |
+      <a href="mailto:yalinigovidharahan@gmail.com">Contact Us</a>
+    </footer>
+  </div>
+
+  <script>
+    // Auto update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
